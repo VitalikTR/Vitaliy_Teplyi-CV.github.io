@@ -3,6 +3,67 @@
 }
 
 body{
-    background: #E5E5E5;
+    background: rgb(255, 255, 255);
     font-family: 'Roboto', sans-serif;
+}
+
+.main-container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar{
+    padding: 15px 15px 0 15px;
+    background-color: rgb(232, 231, 231);
+}
+
+.adress{
+    padding-top: 15px;
+}
+.my-adress{
+    display: block;
+    text-align:center;
+    font-size: 17px;
+    line-height: 19px;
+    
+}
+.my-name{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+}
+
+.main-content{
+    padding: 15px 15px 0 15px;
+    background-color: burlywood;
+}
+
+.my-photo{
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 100%;
+    border: 8px solid rgb(148, 182, 210);
+}
+
+/* desktop */
+@media(min-width:992px){
+    .main-container{
+        max-width: 960px;
+        padding: 0 15px 0 15px;
+        display: flex;
+
+    }
+
+    .sidebar{
+        width: 35%;
+        background-color: rgb(232, 231, 231);
+    }
+    
+    .main-content{
+        width: 65%;
+        background-color: burlywood;
+    }
 }
