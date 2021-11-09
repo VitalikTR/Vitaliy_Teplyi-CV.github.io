@@ -70,8 +70,18 @@ body{
 }
 
 .contacts-block-link{
-    font-size: 16px;
+    display: flex;
+    font-size: 18px;
     color: black;
+}
+
+.contacts-block-link:hover{
+    color: cornflowerblue;
+}
+
+.social-link{
+    width: 18px;
+    margin-right: 5px;
 }
 
 .list-item{
@@ -112,8 +122,6 @@ body{
     padding-top: 5px;
     font-style: italic;
 }
-
-
 
 
 /* desktop */
