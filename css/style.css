@@ -49,16 +49,23 @@ body{
 
 .section-title{
     margin-bottom: 10px;
+    padding-bottom: 2px;
     text-align: center;
     font-size: 20px;
     font-weight: 700;
+    border-bottom: 5px solid rgb(148, 182, 210);
 }
+
+.section-title:hover{
+    border-bottom: 5px solid #FB6D3A;
+}
+
 
 .section-title:hover{
     color: cornflowerblue;
 }
 
-.contacts-bloc{
+.contacts-block{
     padding-top: 4px;
 }
 
@@ -73,6 +80,10 @@ body{
     line-height: 17px;
 }
 
+.list-item:hover{
+    color: #FB6D3A;
+}
+
 .languages-list-item::before,.skills-list-item::before,.personality-list-item::before{
     content: '\2713';
     padding-right: 5px;
@@ -81,7 +92,25 @@ body{
 
 .main-content{
     padding: 15px 15px 0 15px;
-    background-color: burlywood;
+}
+
+.main-content-block{
+    margin-bottom: 15px;
+}
+
+.my-education-period,.my-employment-period{
+    padding-top: 5px;
+    font-style: italic;
+}
+
+.my-education-school,.my-employment{
+    padding-top: 5px;
+    font-weight: 700;
+}
+
+.my-education-faculty,.my-employment-position{
+    padding-top: 5px;
+    font-style: italic;
 }
 
 
@@ -93,16 +122,17 @@ body{
         max-width: 960px;
         padding: 0 15px 0 15px;
         display: flex;
-
     }
 
     .sidebar{
         width: 35%;
         background-color: rgb(232, 231, 231);
+        padding-bottom: 50px;
     }
     
     .main-content{
         width: 65%;
-        background-color: burlywood;
+        background-color: rgb(248, 244, 244);
+        padding-bottom: 50px;
     }
 }
