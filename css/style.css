@@ -139,32 +139,31 @@ body{
     z-index: 100;
     opacity: 0;
     visibility: hidden;
+    overflow: hidden;
 }
 
 .modal-block {
     width: 300px;
-    margin: 250px auto;
-    height: 200px;
+    margin: 200px auto;
     text-align: center;
-    padding: 15px;
+    padding: 20px;
     border: 1px solid #2b71b9;
     border-radius: 10px;
     background-color: #568dc6;
     box-sizing: border-box;
+    z-index: 200;
 }
 
 .hide {
     opacity: 0;
     visibility: hidden;
     transition:  all 700ms ease-in-out;
-    transform: translateY(150);
 }
 
 .show {
     opacity: 1;
     visibility: visible;
     transition:  all 500ms ease-in-out;
-    transform: translateY(0);
 }
 
 .btn {
@@ -207,7 +206,7 @@ body{
 }
 
 .text {
-    padding-top: 50px;
+    padding-top: 15px;
     text-align: center;
     font-size: 23px;
     color: white;
