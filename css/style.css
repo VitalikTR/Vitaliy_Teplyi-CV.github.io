@@ -88,16 +88,17 @@ body{
 
 .section-title{
     margin-bottom: 10px;
-    padding-bottom: 2px;
+    padding-bottom: 10px;
     text-align: center;
-    font-size: 20px;
+    font-size: 26px;
     font-weight: 700;
-    border-bottom: 5px solid rgb(148, 182, 210);
+    border-bottom: 1px solid mediumspringgreen;
     color: white;
+    letter-spacing: 2px;
 }
 
 .section-title:hover{
-    border-bottom: 5px solid #FB6D3A;
+    border-bottom: 1px solid #FB6D3A;
 }
 
 .section-title:hover{
@@ -111,7 +112,7 @@ body{
 .contacts-block-link{
     display: flex;
     align-items: center;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     letter-spacing: 1px;
 }
@@ -125,14 +126,44 @@ body{
     height: 64px;
 }
 
-.list-item{
+.my-languages-content{
+    margin-bottom: 20px;
+}
+
+.img-lang{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 10px;  
+    overflow: hidden;
+}
+
+.text-lang{
+    margin-bottom: 10px;  
+    text-align: center;
+    font-size: 20px;
+}
+
+.progress-block{
+    display: flex;
+    justify-content:center;
+    padding-top: 5px;
+    overflow: hidden;
+}
+
+.progress-item{
+   padding: 0 5px 0 5px;
+   color:mediumspringgreen;
+} 
+
+.personality-list-item{
     padding-top: 4px;
     font-size: 18px;
     line-height: 17px;
     color: white;
+    letter-spacing: 1px;
 }
 
-.list-item:hover{
+.personality-list-item:hover{
     color: #FB6D3A;
 }
 
@@ -179,7 +210,7 @@ body{
 }
 
 .skills-content-icon:hover{
-    color: rgb(155, 216, 33);
+    color:mediumspringgreen;
 }
 
 .main-content{
@@ -194,22 +225,26 @@ body{
 .my-education-period,.my-employment-period{
     padding-top: 5px;
     font-style: italic;
+    color:mediumspringgreen;
 }
 
 .my-education-school,.my-employment{
-    padding-top: 5px;
+    padding-top: 15px;
     font-weight: 700;
+    letter-spacing: 1px;
 }
 
 .my-education-faculty,.my-employment-position{
-    padding-top: 5px;
+    padding-top: 10px;
     font-style: italic;
+    letter-spacing: 1px;
+    text-align: justify;
 }
 
 .personality-list-item::before{
     content: '\2713';
-    padding-right: 5px;
-    color: rgb(10, 102, 177);
+    padding-right: 10px;
+    color:mediumspringgreen;
 }
 
 .my-hobies-content{
@@ -315,9 +350,19 @@ body{
        margin: 0 auto;
     }
 
+    .my-adress{
+        line-height:22px;
+    }
+
     .sidebar{
         width: 35%;
         padding: 20px 20px;
+    }
+
+    .personality-list-item {
+        padding: 5px 0 15px 0;
+        font-size: 28px;
+        color: white;
     }
     
     .main-content-block{
@@ -330,8 +375,23 @@ body{
         margin-bottom: 20px;
     }
 
-    .section-content-block {
+    .my-adress {
+        font-size: 22px;
+    }
+
+    .contacts-block-link{
+        font-size: 28px;
+    }
+
+    .my-languages-block {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
         font-size: 20px;
+    }
+
+    .text-lang{
+        font-size: 28px;
     }
 
     .skills-content {
@@ -348,14 +408,18 @@ body{
     .my-education-school,.my-employment,
     .my-education-faculty,.my-employment-position{
         padding-top: 10px;
-        font-style: italic;
-        letter-spacing: 1px;
+        letter-spacing: 2px;
+        font-size: 22px;
     }
 
     .my-hobies{
         display: flex;
         flex-direction: row;
         justify-content:space-around;
+    }
+
+    .text-hobies{
+        font-size: 22px;
     }
 
 }
