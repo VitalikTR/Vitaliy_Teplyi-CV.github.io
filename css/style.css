@@ -50,6 +50,7 @@ body{
 
 .main-container{
     margin: 0 auto;
+    padding-bottom: 5px;
     background-color: #020611;
 }
 
@@ -205,6 +206,17 @@ body{
     font-style: italic;
 }
 
+.personality-list-item::before{
+    content: '\2713';
+    padding-right: 5px;
+    color: rgb(10, 102, 177);
+}
+
+.my-hobies-content{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
 /*-----modal------*/
 
 .modal {
@@ -315,6 +327,7 @@ body{
 
     .section-title{
         font-size: 32px;
+        margin-bottom: 20px;
     }
 
     .section-content-block {
@@ -337,6 +350,12 @@ body{
         padding-top: 10px;
         font-style: italic;
         letter-spacing: 1px;
+    }
+
+    .my-hobies{
+        display: flex;
+        flex-direction: row;
+        justify-content:space-around;
     }
 
 }
