@@ -457,6 +457,10 @@ body{
     text-align: center;
 }
 
+.nav-mobile-menu.active-menu{
+    position: fixed;
+}
+
 /* desktop */
 @media(min-width:1200px){
    
@@ -465,6 +469,10 @@ body{
        display: flex;
        flex-direction: row;
        margin: 0 auto;
+    }
+
+    .menu{
+        display: none;
     }
 
     .my-adress{

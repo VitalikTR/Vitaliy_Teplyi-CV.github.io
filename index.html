@@ -19,13 +19,13 @@
             <div class="menu">
                 <nav class="navigation hidden-menu">
                     <ul class="nav-menu" id="nav">
-                        <li><a class="menu-item" href="#team">Contacts</a></li>
-                        <li><a class="menu-item" href="#work">Languages</a></li>
-                        <li><a class="menu-item" href="#team">Personality</a></li>
-                        <li><a class="menu-item" href="#work">Education</a></li>
-                        <li><a class="menu-item" href="#service">Employment</a></li>
-                        <li><a class="menu-item" href="#features">Technical skills</a></li>
-                        <li><a class="menu-item" href="#contact">Hobbies</a></li>
+                        <li class="current"><a class="menu-item" href="#contacts">Contacts</a></li>
+                        <li><a class="menu-item" href="#languages">Languages</a></li>
+                        <li><a class="menu-item" href="#personality">Personality</a></li>
+                        <li><a class="menu-item" href="#education">Education</a></li>
+                        <li><a class="menu-item" href="#employment">Employment</a></li>
+                        <li><a class="menu-item" href="#technical-skills">Technical skills</a></li>
+                        <li><a class="menu-item" href="#hobies">Hobbies</a></li>
                     </ul>
                 </nav>
                 <div class="nav-mobile-menu">
@@ -51,7 +51,7 @@
         </header>
         <section class="main-content">
             <aside class="sidebar">
-                <section class="contacts section">
+                <section class="contacts section" id="contacts">
                     <h3 class="section-title">Contacts</h3>
                     <div class="contacts-block">
                         <address class="adress">
@@ -72,7 +72,7 @@
                         <a class="contacts-block-link" href="http://github.com/VitalikTR" target="_blanc"><img class="social-link" src="img/github.png" alt="github">VitalikTR</a>
                     </div>
                 </section>
-                <section class="languages section" data-aos="fade-down-right">
+                <section class="languages section" id="languages" data-aos="fade-down-right">
                     <h3 class="section-title">Languages</h3>
                     <div class="my-languages-block">
                         <div class="my-languages-content"data-aos="fade-up-right" data-aos-duration="2000" >
@@ -190,7 +190,7 @@
                 </section>
             </aside>
             <div class="main-content-block">
-                <section class="education section" data-aos="zoom-in-up">
+                <section class="education section" id="education" data-aos="zoom-in-up">
                     <h3 class="section-title">Education</h3>
                     <div class="my-education-block section-content-block" data-aos="fade-down" data-aos-duration="2000">
                         <p class="my-education-period">2020-2021</p>
@@ -208,7 +208,7 @@
                         <h5 class="my-education-faculty"> Programming for computers and automated systems.</h5>
                     </div>
                 </section>
-                <section class="employment section" data-aos="fade-right">
+                <section class="employment section" id="employment" data-aos="fade-right">
                     <h3 class="section-title">Employment</h3>
                     <div class="my-employment-block section-content-block" data-aos="fade-up-left" data-aos-duration="2000">
                         <p class="my-employment-period">2015-2017</p>
@@ -221,7 +221,7 @@
                         <h5 class="my-employment-position"> Computer engineer.</h5>
                     </div>
                 </section>
-                <section class="skills section" data-aos="fade-up">
+                <section class="skills section" id="technical-skills" data-aos="fade-up">
                     <h3 class="section-title">Technical skills</h3>
                     <div class="skills-content">
                         <div class="skills-content-icon">
@@ -253,7 +253,7 @@
                         </div>
                     </div>
                 </section>
-                <section class="hobies section" data-aos="flip-right">
+                <section class="hobies section" id="hobies" data-aos="flip-right">
                     <h3 class="section-title">Hobbies</h3>
                     <div class="my-hobies section-content-block">
                         <div class="my-hobies-content"data-aos="fade-up-right" data-aos-duration="2000" >
@@ -272,6 +272,7 @@
                 </section>
             </div>
         </section>
+        
     </main>
      <!-- modal -->
      <div class="modal">
@@ -282,8 +283,10 @@
     </div>
     <!-- end modal -->
 
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
     <script src="https://kit.fontawesome.com/7ee9b1aa4b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/jquery.nav.js"></script>
     <script src="js/mobile-menu.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/modal.js"></script>
