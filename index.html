@@ -15,6 +15,26 @@
 <body>
     <main class="main-container">
         <header class="header">
+     <!----------- mobile menu -------------->
+            <div class="menu">
+                <nav class="navigation hidden-menu">
+                    <ul class="nav-menu" id="nav">
+                        <li><a class="menu-item" href="#team">Contacts</a></li>
+                        <li><a class="menu-item" href="#work">Languages</a></li>
+                        <li><a class="menu-item" href="#team">Personality</a></li>
+                        <li><a class="menu-item" href="#work">Education</a></li>
+                        <li><a class="menu-item" href="#service">Employment</a></li>
+                        <li><a class="menu-item" href="#features">Technical skills</a></li>
+                        <li><a class="menu-item" href="#contact">Hobbies</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-mobile-menu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+            </div>
+    <!-------- end mobile menu -------->
             <div class="header-video">
                 <video class="video" autoplay loop>
                     <source src="video/Future - 12917.mp4" type="video/mp4">
@@ -264,6 +284,7 @@
 
     <script src="https://kit.fontawesome.com/7ee9b1aa4b.js" crossorigin="anonymous"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="js/mobile-menu.js"></script>
     <script src="js/aos.js"></script>
     <script src="js/modal.js"></script>
 
