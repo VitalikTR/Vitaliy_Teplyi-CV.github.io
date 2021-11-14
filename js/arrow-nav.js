@@ -8,6 +8,10 @@ window.addEventListener("scroll", function() {
     }
 });
 
+
 arrowNav.addEventListener("click", function() {
-    window.scrollTo(pageXOffset, 0);
+    window.scrollTo({
+        top:0,
+        behavior:"smooth"
+    });
 });

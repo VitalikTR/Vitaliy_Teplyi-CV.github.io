@@ -259,7 +259,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.30);
+    background-color: rgba(255, 255, 255, 0.5);;
     z-index: 100;
     opacity: 0;
     visibility: hidden;
@@ -390,6 +390,7 @@ body{
     width: 20px;
     height: 20px;
     position: relative;
+    cursor: pointer;
 }
 
 .nav-mobile-menu span{
@@ -474,8 +475,6 @@ body{
 .arrow {
     position: fixed;
     display: block;
-    right: 15px;
-    left: 10px;
     top: 90vh;
     left: 85vw;
     font-size: 3rem;
@@ -489,6 +488,7 @@ body{
     -webkit-animation-iteration-count: infinite;
     animation-iteration-count: infinite;
     cursor: pointer;
+    overflow: hidden;
 }
 
 @keyframes arrow {
@@ -505,7 +505,9 @@ body{
 
 /* desktop */
 @media(min-width:1200px){
-   
+    .my-photo{
+        width: 500px;
+    }
     .main-content{
        width: 100%;
        display: flex;
